@@ -45,6 +45,8 @@ You can download the Arduino sketch here:
 
 Or open the `.ino` file directly inside this repository.
 
+Make sure you have the built-in Servo library installed.
+
 ---
 
 ## 📜 How It Works

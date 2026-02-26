@@ -56,10 +56,10 @@ void loop() {
   if (currentCLKState != lastCLKState) {
 
     // Check direction
-    if (digitalRead(DT) != currentCLKState) {
-      servoAngle += 2;   // clockwise
+    if (digitalRead(DT) == currentCLKState) {
+      servoAngle += 5;   // clockwise
     } else {
-      servoAngle -= 2;   // counter-clockwise
+      servoAngle -= 5;   // counter-clockwise
     }
 
     // Limit angle 0 - 180
@@ -72,3 +72,4 @@ void loop() {
 
   lastCLKState = currentCLKState;
 }
+

@@ -59,7 +59,8 @@ The angle is limited between 0° and 180°.
 ## 🎥 Video Tutorial
 
 Watch the full tutorial here:  
-👉 https://youtu.be/3RUEu1doFBQ
+
+[![Watch the video](https://img.youtube.com/vi/3RUEu1doFBQ/0.jpg)](https://youtu.be/3RUEu1doFBQ)
 
 ---
 
